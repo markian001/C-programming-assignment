@@ -1,0 +1,16 @@
+/*
+Name:Mark Ian Murithi
+Reg No:CT101/G/26541/25
+Description:Program that writes number from 100 down to 50
+*/
+#include <stdio.h>
+
+int main() {
+    int i;
+
+    for (i = 100; i >= 50; i--) {
+        printf("%d\n", i);
+    }
+
+    return 0;
+}
